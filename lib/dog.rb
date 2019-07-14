@@ -19,7 +19,7 @@ end
 
 def self.print_all
   @@all.each do |dogs_name|
-    puts dogs_name.name
+    puts dogs_name.name #this is pulling the name variable after running through the objects from the class variable
   end
 end
 
